@@ -1,0 +1,58 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    width: 100%;
+  }
+
+
+  
+  #AllBooks
+  {
+    width: 100%;
+  }
+
+  /* Style tab links */
+  .tablink {
+    background-color: rgb(38, 38, 122);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+    
+  }
+  
+  .tablink:hover {
+    background-color:green;
+  }
+
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: rgb(230, 26, 230);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #AllBooks  {background-color: rgba(136, 177, 224, 0.795);}
+  #AllCategories {background-color: rgba(136, 177, 224, 0.795);}
+  #AllAuthors {background-color: rgba(136, 177, 224, 0.795);}
+  #AllLanguages {background-color: rgba(136, 177, 224, 0.795);}
+  #AllUsers {background-color: rgba(136, 177, 224, 0.795);}
+
+  #AllBooks,#AllCategories,#AllAuthors,#AllLanguages,#AllUsers, tbody
+  {
+  text-align: center;
+
+  }
+
+  h2{
+    text-align: left;
+  }

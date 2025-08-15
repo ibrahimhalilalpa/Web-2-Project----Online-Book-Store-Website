@@ -1,0 +1,59 @@
+body {
+	background-color: white;
+	color: black;
+  }
+  
+
+/*Toggle Dark/Light Mode*/
+  .dark-mode {
+	background-color: #141e27;
+	color: white;
+
+	.container1 
+	{
+		color: black;
+		opacity: 0.8;
+	}
+
+
+
+  }
+
+  .light-mode {
+	background-color: white;
+	color: black;
+
+	
+
+  }
+
+.pdf-list {
+	width: 80%;
+}
+.card {
+	width: 20rem;
+	height: 50rem;
+}
+.category .list-group {
+	width: 200px;
+}
+.nd {
+	text-decoration: none;
+}
+
+.img-box img {
+	height:350px;
+}
+
+.book-title
+{
+	text-align: center;
+	color: rgb(116, 155, 8);
+}
+
+
+.container1
+{
+	margin: 0% 5%;
+	padding: 0% 5%;
+}
